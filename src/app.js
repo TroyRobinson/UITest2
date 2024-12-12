@@ -1,6 +1,7 @@
 import * as React from 'react'
 import '../public/globals.css'
 import { FlexCol } from './utils'
+import TodoList from './TodoList'
 
 export var App = () => {
   return (
@@ -22,6 +23,7 @@ export var App = () => {
           height: 453,
         }}
       ></img>
+      <TodoList />
     </FlexCol>
   )
 }
